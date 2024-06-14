@@ -1,4 +1,4 @@
-import {Button} from './button.js';
+import {Button} from './Blocks/button.js';
 
 export  class Checkbutton extends Button {
   constructor() {

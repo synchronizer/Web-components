@@ -1,4 +1,4 @@
-// import { Icon } from "./icon.js";
+
 
 export class Button extends HTMLElement {
     constructor() {
