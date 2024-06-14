@@ -1,4 +1,4 @@
-document.querySelector('head').innerHTML += '<link rel="stylesheet" href="Blocks/button.css">'
+document.querySelector('head').innerHTML += '<link rel="stylesheet" href="Blocks/button/button.css">'
 
 export class Button extends HTMLElement {
     constructor() {

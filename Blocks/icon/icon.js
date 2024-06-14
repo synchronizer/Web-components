@@ -1,4 +1,4 @@
-document.querySelector('head').innerHTML += '<link rel="stylesheet" href="Blocks/icon.css">';
+document.querySelector('head').innerHTML += '<link rel="stylesheet" href="Blocks/icon/icon.css">';
 
 export class Icon extends HTMLElement {
     constructor() {

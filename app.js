@@ -1,7 +1,7 @@
-import {Button} from './Blocks/button.js'
+import {Button} from './Blocks/button/button.js'
 import { Checkbutton } from './Blocks/checkbutton.js';
-import { Radiobutton } from './Blocks/radiobutton.js';
-import { Icon } from './Blocks/icon.js';
+import { Radiobutton } from './Blocks/radiobutton/radiobutton.js';
+import { Icon } from './Blocks/icon/icon.js';
 
 class App extends HTMLElement {
     constructor() {

@@ -1,6 +1,6 @@
-import {Button} from './button.js';
+import {Button} from './button/button.js';
 
-document.querySelector('head').innerHTML += '<link rel="stylesheet" href="Blocks/checkbutton.css">';
+document.querySelector('head').innerHTML += '<link rel="stylesheet" href="Blocks/checkbutton/checkbutton.css">';
 
 export  class Checkbutton extends Button {
   constructor() {
