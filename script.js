@@ -7,7 +7,6 @@ import {Button} from './button.js'
 import { Checkbutton } from './checkbutton.js';
   
   
-  customElements.define("b-checkbutton", bCheckbutton);
   
   
   class bRadiobutton extends HTMLElement {
