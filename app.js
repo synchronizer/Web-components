@@ -1,5 +1,5 @@
 import {Button} from './Blocks/button/button.js'
-import { Checkbutton } from './Blocks/checkbutton.js';
+import { Checkbutton } from './Blocks/checkbutton/checkbutton.js';
 import { Radiobutton } from './Blocks/radiobutton/radiobutton.js';
 import { Icon } from './Blocks/icon/icon.js';
 
