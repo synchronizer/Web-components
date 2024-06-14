@@ -1,4 +1,4 @@
-import { Checkbutton } from "./checkbutton";
+import { Checkbutton } from "./checkbutton.js";
 
 export class Radiobutton extends HTMLElement {
     constructor() {
