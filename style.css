@@ -21,39 +21,3 @@
     align-items: flex-start;
   }
   
-  
-  .checkbutton[data-checked] {
-    box-shadow: inset 0 0 0 1px #fff;
-  }
-  
-  .radiobutton {
-    display: inline-flex;
-    border-radius: var(--corner-radius-m);
-    background-color: #222;
-  }
-  
-
-
-
-
-
-
-.icon {
-    display: inline-block;
-    background-color: #fff; 
-    mask-size: contain;  
-    mask-position: center;                 
-}
-  .icon[size='s'] {
-    width: 16px;
-    height: 16px;
-  }
-
-  .icon[size='m'] {
-    width: 24px;
-    height: 24px;
-  }
-  .icon[size='l'] {
-    width: 36px;
-    height: 36px;
-  }

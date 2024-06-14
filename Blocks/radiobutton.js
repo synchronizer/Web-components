@@ -1,4 +1,4 @@
-
+document.querySelector('head').innerHTML += '<link rel="stylesheet" href="Blocks/radiobutton.css">';
 
 export class Radiobutton extends HTMLElement {
     constructor() {
