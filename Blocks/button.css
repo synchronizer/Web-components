@@ -1,0 +1,87 @@
+
+.button {
+    line-height: 24px;
+    border-radius: var(--corner-radius-m);
+    background: var(--button-bg-color);
+    cursor: pointer;
+    display: inline-flex;
+    gap: 12px;
+    position: relative;
+    user-select: none;
+    transition: scale 150ms;
+  }
+
+  .button[data-size='s'] {
+    padding: 6px;
+  }
+
+  .button[data-size='m'] {
+    padding: 12px;
+  }
+
+  .button[data-size='l'] {
+    padding: 24px;
+  }
+  
+  .button[data-style="action"] {
+    background: linear-gradient(to right bottom, #f50, #f05);
+  }
+  
+  .button:hover {
+    background: var(--button-hover-bg-color);
+  }
+  .button[data-style="action"]:hover {
+    background: linear-gradient(to right bottom, #f72, #f27);
+  }
+  
+  .button:active {
+    scale: .9;
+  }
+  
+  .button[data-style="shadow"] {
+    background: transparent;
+  }
+  
+  .button[data-style="shadow"]:hover {
+    background: var(--button-hover-bg-color);
+  }
+
+  .button[data-counter]:after {
+    font-size: .9em;
+    content: attr(data-counter);
+    position: absolute;
+    right: -8px;
+    top: -8px;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    background-color: #F00;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    text-align: center;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+  }
+
+  .button__icon {
+    background-color: #fff;
+  }
+
+  .button[data-load] {
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 8 8' fill='none'><path d='M0 0H4L0 4V0Z' fill='black' fill-opacity='0.5'/><path d='M0 8L8 0V4L4 8H0Z' fill='black' fill-opacity='0.5'/></svg>");
+    animation: linear .5s infinite buttonload;
+    pointer-events: none;
+  }
+
+  @keyframes buttonload {
+    0% {
+        background-position: 0 0;
+    }
+    
+    100% {
+        background-position: 16px 0;
+    }
+    }
