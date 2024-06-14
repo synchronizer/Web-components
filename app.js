@@ -6,6 +6,8 @@ import { Icon } from './Blocks/icon.js';
 class App extends HTMLElement {
     constructor() {
       super();
+
+      this.className = 'app'
         
       this.innerHTML = `
       <b-button data-counter=10>Button</b-button>
