@@ -1,22 +1,6 @@
 
 import {Button} from './button.js';
 
-
-
-
-  
-  class bCheckbutton extends Button {
-    constructor() {
-      super();
-      this.classList.add('checkbutton')
-      this.addEventListener('click', () => {
-        this.toggleAttribute('data-checked')
-      })
-  
-    }
-  }
-  
-  customElements.define("b-checkbutton", bCheckbutton);
   
   
   class bRadiobutton extends HTMLElement {
