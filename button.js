@@ -1,3 +1,5 @@
+import { Icon } from "./icon";
+
 export class Button extends HTMLElement {
     constructor() {
       super();
