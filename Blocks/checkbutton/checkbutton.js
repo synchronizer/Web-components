@@ -1,4 +1,4 @@
-import {Button} from './button/button.js';
+import {Button} from '../button/button.js';
 
 document.querySelector('head').innerHTML += '<link rel="stylesheet" href="Blocks/checkbutton/checkbutton.css">';
 
