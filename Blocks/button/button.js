@@ -19,7 +19,7 @@ export class Button extends HTMLElement {
       if (this.getAttribute('data-onclick')) {
         const onclick = this.getAttribute('data-onclick');
         this.addEventListener('click', () => {eval(onclick)})
-
+        this.removeAttribute('data-onclick');
       };
   
     }
