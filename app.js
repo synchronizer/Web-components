@@ -14,7 +14,7 @@ class App extends HTMLElement {
 <b-button data-style=action>Button</b-button>
 <b-checkbutton data-size="l">Button</b-checkbutton>
   <b-radiobutton data-selected=2 data-size="l">
-    <item>1 step</item>
+    <item>11 step</item>
     <item>2 step</item>
     <item>3 step</item>
     <item>4 step</item>

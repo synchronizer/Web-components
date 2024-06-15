@@ -15,6 +15,15 @@ export class Radiobutton extends HTMLElement {
           this.setAttribute('data-selected', (key + 1))
         })
       });
+
+    
+
+  }
+    
+    static observedAttributes = ["selected"];
+
+    attributeChangedCallback(attrName, oldValue, newValue) {
+      console.log(`Attribute ${attrName} has changed.`);
     }
   }
   customElements.define("b-radiobutton", Radiobutton);
