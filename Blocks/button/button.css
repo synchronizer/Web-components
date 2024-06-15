@@ -14,19 +14,19 @@
 
   .button[data-size='s'] {
     height: var(--button-size-s-height);
-    padding: 0 calc(var(--button-size-s-height) / 3);
+    padding: 0 calc(var(--button-size-s-height) / 4);
     min-width: var(--button-size-s-height);
   }
 
   .button[data-size='m'] {
     height: var(--button-size-m-height);
-    padding: 0 calc(var(--button-size-m-height) / 3);
+    padding: 0 calc(var(--button-size-m-height) / 4);
     min-width: var(--button-size-m-height);
   }
 
   .button[data-size='l'] {
     height: var(--button-size-l-height);
-    padding: 0 calc(var(--button-size-l-height) / 3);
+    padding: 0 calc(var(--button-size-l-height) / 4);
     min-width: var(--button-size-l-height);
   }
   
