@@ -1,6 +1,6 @@
 
 .button {
-    line-height: 24px;
+  box-sizing: border-box;
     border-radius: var(--corner-radius-m);
     background: var(--button-bg-color);
     cursor: pointer;
