@@ -20,7 +20,7 @@ export class Radiobutton extends HTMLElement {
 
   }
     
-    static observedAttributes = ["selected"];
+    static observedAttributes = ["data-selected"];
 
     attributeChangedCallback(attrName, oldValue, newValue) {
       console.log(`Attribute ${attrName} has changed.`);
