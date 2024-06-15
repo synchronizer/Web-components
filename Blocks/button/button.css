@@ -10,6 +10,7 @@
     user-select: none;
     transition: scale 150ms;
     align-items: center;
+    justify-content: center;
   }
 
   .button[data-size='s'] {
