@@ -31,7 +31,7 @@ class App extends HTMLElement {
 
   <b-button data-size="s">Size S</b-button>
   <b-button data-size="l">Size L</b-button>
-  <b-button data-size="l" data-style="action">Go!</b-button>
+  <b-button data-size="l" data-style="action" data-onclick="alert('Go!')">Go!</b-button>
   <b-button data-load>Load</b-button>
       `
 
