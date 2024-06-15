@@ -3,6 +3,9 @@
     --bg-color: #000;
     --button-bg-color: #222;
     --button-hover-bg-color: #292929;
+    --button-size-s-height: 36px;
+    --button-size-m-height: 48px;
+    --button-size-l-height: 72px;
   }
   html {
     font-family: sans-serif;

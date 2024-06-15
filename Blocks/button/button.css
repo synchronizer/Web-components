@@ -9,18 +9,25 @@
     position: relative;
     user-select: none;
     transition: scale 150ms;
+    align-items: center;
   }
 
   .button[data-size='s'] {
-    padding: 6px;
+    height: var(--button-size-s-height);
+    padding: 0 calc(var(--button-size-s-height) / 2);
+    min-width: var(--button-size-s-height);
   }
 
   .button[data-size='m'] {
-    padding: 12px;
+    height: var(--button-size-m-height);
+    padding: 0 calc(var(--button-size-m-height) / 2);
+    min-width: var(--button-size-m-height);
   }
 
   .button[data-size='l'] {
-    padding: 24px;
+    height: var(--button-size-l-height);
+    padding: 0 calc(var(--button-size-l-height) / 2);
+    min-width: var(--button-size-l-height);
   }
   
   .button[data-style="action"] {
@@ -46,25 +53,6 @@
     background: var(--button-hover-bg-color);
   }
 
-  .button[data-counter]:after {
-    font-size: .9em;
-    content: attr(data-counter);
-    position: absolute;
-    right: -8px;
-    top: -8px;
-    width: 24px;
-    height: 24px;
-    line-height: 24px;
-    background-color: #F00;
-    font-weight: bold;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
-    border-radius: 12px;
-    text-align: center;
-    overflow: hidden;
-    -ms-text-overflow: ellipsis;
-    text-overflow: ellipsis;
-  }
 
   .button__icon {
     background-color: #fff;

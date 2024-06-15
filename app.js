@@ -10,7 +10,7 @@ class App extends HTMLElement {
       this.className = 'app'
         
       this.innerHTML = `
-      <b-button data-counter=10>Button</b-button>
+      <b-button>Button</b-button>
 <b-button data-style=action>Button</b-button>
 <b-checkbutton data-size="l">Button</b-checkbutton>
   <b-radiobutton data-selected=2 data-size="l">
